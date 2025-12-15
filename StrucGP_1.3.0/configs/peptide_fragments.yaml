@@ -1,0 +1,29 @@
+b:
+  name: b
+  mass: 0.0
+  n_term: true
+y:
+  name: y
+  mass: 18.0105647
+  composition: 'H(2) O'
+  n_term: false
+c:
+  name: c
+  mass: 17.026549105
+  composition: 'H(3) N'
+  n_term: true
+z:
+  name: z
+  mass: 0.9840155950000007
+  composition: 'H(-1) N(-1) O'
+  n_term: false
+a:
+  name: a
+  mass: -27.99491463
+  composition: 'C(-1) O(-1)'
+  n_term: true
+x:
+  name: x
+  mass: 43.98982926
+  composition: 'C O(2)'
+  n_term: false

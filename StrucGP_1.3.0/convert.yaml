@@ -1,0 +1,26 @@
+sce: False  # is stepped collision energy
+ces: [20, 33]  # for step collision energies, eg [20, 30, 40]; for dual energies, eg [20, 33]
+statistics: True
+simplify: False
+keep_all: False
+
+elements_path: 'configs/elements.yaml'
+amino_acids_path: 'configs/amino_acids.yaml'
+modifications_path: 'configs/modifications.yaml'
+peptide_fragments_path: 'configs/peptide_fragments.yaml'
+monosaccharides_path: 'configs/monosaccharides.yaml'
+neutral_losses_path: 'configs/neutral_losses.yaml'
+
+monosaccharides_list: ["H", "N", "A", "G", "F"]  # 对应strucGP编号为12345单糖结构
+
+modifications_dict:
+  Carbamidomethyl: c
+  Oxidation: ox
+
+peptide_fragment_type: ["b", "y"]
+#peptide_fragment_loss_type: ["", "H2O", "NH3"]
+peptide_fragment_loss_type: [""]
+peptide_fragment_glycan: ["", "$", "N"]
+peptide_fragment_charge: [1, 2]
+glycan_reducing_end_fragment_charge: [1, 2, 3]
+glycan_branch_fragment_charge: [1]

@@ -1,0 +1,39 @@
+ac:
+  name: 'Acetyl (K) / Acetyl (Protein N-term)'
+  unimod: 1
+  mass: 42.01056469
+  composition: 'C H(2) O'
+  amino_acid: K
+  position: 'protein_n_term'
+c:
+  name: 'Carbamidomethyl (C)'
+  unimod: 4
+  mass: 57.02146373
+  composition: 'C H(3) N O'
+  amino_acid: C
+ox:
+  name: 'Oxidation (M) / Oxidation (P)'
+  unimod: 35
+  mass: 15.9994
+  composition: 'O'
+  amino_acid: MP
+p:
+  name: 'Phospho (S) / Phospho (T) / Phospho (Y)'
+  unimod: 21
+  mass: 79.979902
+  composition: 'H P O(3)'
+  loss: H3PO4
+  amino_acid: STY
+pyg:
+  name: 'Gln->pyro-Glu'
+  unimod: 28
+  mass: -17.026549
+  composition: 'H(-3) N(-1)'
+  amino_acid: Q
+  position: 'n_term'
+de:
+  name: 'Deamidated (N) / Deamidated (Q) / Deamidated (R)'
+  unimod: 7
+  mass: 0.984015593
+  composition: 'H(-1) N(-1) O'
+  amino_acid: NQR
