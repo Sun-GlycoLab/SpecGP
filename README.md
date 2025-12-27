@@ -40,7 +40,9 @@ Three models are provided in the StrucGP_1.3.0/models folder for users to choose
 
 5\. When the program finishes running, a result file with the suffix 'after_rescoring.xlsx' will be generated in the same directory as the raw file as the final identification result. Taking the AMD Ryzen 9 9900X CPU and the Windows 11 operating platform as an example, glycan identification takes about 30 minutes, while re-scoring takes about 15 minutes.
 
+# Acknowledgement
+Thank [DeepGlyco](https://github.com/yyi17/DeepGlyco) and [DeepGP](https://github.com/lmsac/DeepGP) teams for their open-source initiatives that supported this research.
 
 Contact
 ====
-If you have any questions or suggestions, please contact sun\_glycolab@126.com or post issues at Github(https://github.com/Sun-GlycoLab/StrucOGP).
+If you have any questions or suggestions, please contact sun\_glycolab@126.com or post issues at Github(https://github.com/Sun-GlycoLab/SpecGP).
